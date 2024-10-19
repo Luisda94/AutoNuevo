@@ -1,10 +1,6 @@
 package Main;
-
 import java.util.Scanner;
-
-
 import modelo.Auto;
-
 public class main {
 
 	   public static void main(String[] args) {
