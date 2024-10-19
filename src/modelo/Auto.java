@@ -40,5 +40,30 @@ la consola. Una vez generado imprimirá los datos. */
 	            System.out.println("Se ha encendido su auto.");
 	        }
 	    }
-	    
+	    // Método para apagar el auto
+	    public void apagar() {
+	        if (!encendido) {
+	            System.out.println("No se puede realizar esta acción porque su auto ya está apagado.");
+	        } else {
+	            encendido = false;
+	            System.out.println("Se ha apagado su auto.");
+	        }
+	    }
+
+	    // Método para acelerar el auto
+	    public void acelerar() {
+	        if (!encendido) { //si es diferente no, porque esta apagado
+	            System.out.println("No puede acelerar porque su auto está apagado.");
+	        } else {
+	            System.out.println("Está acelerando su auto.");
+	        }
+	    }
+	    //faltaria metodo para frenar. no lo pide el ejercicio no se hara.
+
+	    // Método para imprimir los detalles del auto
+	    public void mostrarDatos() {
+	        System.out.println("Felicidades por su nuevo Auto [marca=" + marca + ", modelo=" + modelo + ", color=" + color +
+	                ", velocidadMaxima=" + velocidadMaxima + ", encendido=" + encendido + "]");
+	    }
+
 }
