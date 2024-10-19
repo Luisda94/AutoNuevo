@@ -16,6 +16,21 @@ la consola. Una vez generado imprimirá los datos. */
 	    private String color;
 	    private int velocidadMaxima;
 	    private boolean encendido;
+		/**
+		 * @param marca
+		 * @param modelo
+		 * @param color
+		 * @param velocidadMaxima
+		 * @param encendido
+		 */
+		public Auto(String marca, String modelo, String color, int velocidadMaxima, boolean encendido) {
+			super();
+			this.marca = marca;
+			this.modelo = modelo;
+			this.color = color;
+			this.velocidadMaxima = velocidadMaxima;
+		    this.encendido = false; // Auto empieza apagado
+		}
 	    
 	    
 }
