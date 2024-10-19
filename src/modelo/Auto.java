@@ -31,6 +31,14 @@ la consola. Una vez generado imprimirá los datos. */
 			this.velocidadMaxima = velocidadMaxima;
 		    this.encendido = false; // Auto empieza apagado
 		}
-	    
+	    // Método para encender el auto
+	    public void encender() {
+	        if (encendido) {
+	            System.out.println("No se puede realizar esta acción porque su auto ya se encuentra encendido.");
+	        } else {
+	            encendido = true;
+	            System.out.println("Se ha encendido su auto.");
+	        }
+	    }
 	    
 }
