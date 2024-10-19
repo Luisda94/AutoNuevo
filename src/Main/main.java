@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 
 import modelo.Auto;
-// TODO Auto-generated method stub
+
 public class main {
 
 	   public static void main(String[] args) {
