@@ -3,7 +3,7 @@ import java.util.Scanner;
 import modelo.Auto;
 public class main {
 
-	public static void main(String[] args) {
+	public static void Main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
         // Solicitar los datos del auto desde la consola en el mismo orden que fueron declarados en el modelo.
