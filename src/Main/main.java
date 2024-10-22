@@ -3,11 +3,25 @@ import java.util.Scanner;
 import modelo.Auto;
 public class main {
 
-	   public static void main(String[] args) {
-		   Scanner scanner = new Scanner(System.in);
-	        // Crear objeto Auto
-	        Auto auto = new Auto("Ferrari", "f80", "rojo", 450, false);
-	     //   TelefonoMovil celular2 = new TelefonoMovil("Motorola","G54",3,"negro");
+	public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Solicitar los datos del auto desde la consola en el mismo orden que fueron declarados en el modelo.
+        System.out.println("Ingrese la marca del auto:");
+        String marca = scanner.nextLine();
+
+        System.out.println("Ingrese el modelo del auto:");
+        String modelo = scanner.nextLine();
+
+        System.out.println("Ingrese el color del auto:");
+        String color = scanner.nextLine();
+
+        System.out.println("Ingrese la velocidad máxima del auto:");
+        int velocidadMaxima = scanner.nextInt();
+
+        // Crear objeto Auto
+        Auto auto = new Auto(marca, modelo, color, velocidadMaxima, false);
+	
 	        // Mostrar detalles del auto
 	        auto.mostrarDatos();
 
