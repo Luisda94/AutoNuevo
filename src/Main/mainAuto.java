@@ -1,6 +1,6 @@
 package Main;
 import java.util.Scanner;
-import modelo.Auto;
+import modelo.AutoSimpleProbandoPOO;
 public class mainAuto {
 
 	public static void Main(String[] args) {
@@ -20,7 +20,7 @@ public class mainAuto {
         int velocidadMaxima = scanner.nextInt();
 
         // Crear objeto Auto
-        Auto auto = new Auto(marca, modelo, color, velocidadMaxima, false);
+        AutoSimpleProbandoPOO auto = new AutoSimpleProbandoPOO(marca, modelo, color, velocidadMaxima, false);
 	
 	        // Mostrar detalles del auto
 	        auto.mostrarDatos();

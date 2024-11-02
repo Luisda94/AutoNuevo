@@ -23,7 +23,7 @@ la consola. Una vez generado imprimirá los datos. */
 		 * @param velocidadMaxima
 		 * @param encendido
 		 */
-		public Auto(String marca, String modelo, String color, int velocidadMaxima, boolean encendido) {
+		public AutoSimpleProbandoPOO(String marca, String modelo, String color, int velocidadMaxima, boolean encendido) {
 			super();
 			this.marca = marca;
 			this.modelo = modelo;
