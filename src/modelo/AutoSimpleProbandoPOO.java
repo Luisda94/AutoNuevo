@@ -1,6 +1,6 @@
 package modelo;
 
-public class Auto {
+public class AutoSimpleProbandoPOO {
 /*Crearás una clase Auto con los siguientes atributos: marca, modelo, color, velocidadMaxima.
 Usted decide el tipo de dato que crea más conveniente. Agregará un cuarto atributo de tipo
 booleano, de nombre encendido. Los atributos no deben ser accesibles desde otra clase.

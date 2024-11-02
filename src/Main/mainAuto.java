@@ -1,7 +1,7 @@
 package Main;
 import java.util.Scanner;
 import modelo.Auto;
-public class main {
+public class mainAuto {
 
 	public static void Main(String[] args) {
         Scanner scanner = new Scanner(System.in);
